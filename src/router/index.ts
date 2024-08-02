@@ -32,6 +32,14 @@ export const routes = [
     meta: {
       hidden: false
     }
+  },
+  {
+    path: '/css-class',
+    name: 'cssClass',
+    component: () => import('../views/css-class/PseudoClass.vue'),
+    meta: {
+      hidden: false
+    }
   }
 ]
 

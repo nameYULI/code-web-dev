@@ -21,5 +21,6 @@ import { routes } from '@/router'
 <style scoped>
 .el-main {
   background-color: #f2f2f2;
+  width: 100%;
 }
 </style>
