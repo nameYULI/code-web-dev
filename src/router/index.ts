@@ -40,6 +40,14 @@ export const routes = [
     meta: {
       hidden: false
     }
+  },
+  {
+    path: '/css-tooltip',
+    name: 'cssTooltip',
+    component: () => import('../views/css-tooltip/CssTooltip.vue'),
+    meta: {
+      hidden: false
+    }
   }
 ]
 
